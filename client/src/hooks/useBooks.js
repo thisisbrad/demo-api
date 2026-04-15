@@ -14,6 +14,7 @@ export function useBooks() {
 
   const fetchBooks = useCallback(async () => {
     //
+    console.log("This breaks it?");
     setLoading(true);
     setError(null);
     try {
