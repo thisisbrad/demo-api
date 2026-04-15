@@ -13,6 +13,7 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",
     "https://69e015631254845e8fc4c232--fs-api-demo.netlify.app",
+    "https://fs-api-demo.netlify.app",
   ], // Match your frontend's address
   methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed methods
 };
